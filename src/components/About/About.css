@@ -1,0 +1,16 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 8% 2rem;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-me-description {
+    padding-top: 2rem;
+    width: 70%;
+    text-align: justify;
+}

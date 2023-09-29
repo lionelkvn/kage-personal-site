@@ -6,7 +6,7 @@ const Home = () => {
     <div className='home'>
        <div className='home-left'>
             <h1>
-            My name is <span>Kage</span>
+            I am <span>Kage</span>
             </h1>
             <h2>
             Lionel's Furry Friend.

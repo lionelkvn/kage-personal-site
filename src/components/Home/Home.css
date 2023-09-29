@@ -18,7 +18,8 @@
     align-items: flex-end;
 }
 .home-left span {
-    font-style: italic;
+    font-style: Bold;
+    text-shadow: 2px 2px 4px rgba(103, 103, 103, 0.585);
 }
 .home-right{
     display: flex;
@@ -32,8 +33,16 @@
     filter: drop-shadow(5px 15px 44px rgba(0, 0, 0, 0.3));
 }
 button{
-    background-color: black;
-    color: white;
-    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    padding: 1rem 2rem;
     border-radius: 45px;
+}
+
+button :hover {
+    font-size: 1.01rem;
+    transition: 0.3s ease-out;
+    color: rgb(23, 23, 23);
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.241);
 }
