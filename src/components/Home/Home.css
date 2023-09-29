@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 8% 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    height: 100vh;
+
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content:center;
+    align-items: flex-end;
+}
+.home-left span {
+    font-style: italic;
+}
+.home-right{
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding: 0px 0rem;
+    height: auto;
+    width: 70%;
+    filter: drop-shadow(5px 15px 44px rgba(0, 0, 0, 0.3));
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 45px;
+}
